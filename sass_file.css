@@ -124,31 +124,32 @@
     font-family: 'montserrat','san-serif';
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: 25% 25% 1fr;
-        grid-template-rows: 25% 25% 1fr;
+    -ms-grid-rows: 25% 5% 25% 1fr;
+        grid-template-rows: 25% 5% 25% 1fr;
   }
   .sliders {
     visibility: hidden;
   }
   .mainSection {
     width: 100%;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-rows: auto 1fr;
-        grid-template-rows: auto 1fr;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   aside {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   main {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
   }
   .main-head .menu-icon {
     display: block;
@@ -461,13 +462,13 @@ body {
   font-family: 'montserrat','san-serif';
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 25%  25% 1fr;
-      grid-template-rows: 25%  25% 1fr;
+  -ms-grid-rows: 25% 5% 25% 1fr;
+      grid-template-rows: 25% 5% 25% 1fr;
 }
 
 .sliders {
   width: 100%;
-  height: auto;
+  height: 500px;
   border: 1px solid black;
 }
 
@@ -489,10 +490,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
@@ -502,15 +503,6 @@ body {
 
 .clearFix {
   clear: both;
-}
-
-body {
-  background-image: -webkit-gradient(linear, left top, right top, from(#034378), to(#2d4e68));
-  background-image: linear-gradient(to right, #034378, #2d4e68);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
-  font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -566,6 +558,9 @@ h2 {
 }
 
 .card .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #fff;
   min-height: 300px;
   position: relative;
@@ -620,7 +615,7 @@ h2 {
 }
 
 .example-1 .wrapper {
-  background: url(background/Digger.jpg) 20% 1%/cover no-repeat;
+  background: url(/background/Digger.jpg) 20% 1%/cover no-repeat;
 }
 
 .example-1 .date {
@@ -737,7 +732,7 @@ h2 {
 }
 
 .example-2 .wrapper {
-  background: url(background/atari.jpg) center/cover no-repeat;
+  background: url(background/plastic1.jpg) center/cover no-repeat;
 }
 
 .example-2 .wrapper:hover .menu-content span {

@@ -4,8 +4,8 @@
     font-family: 'montserrat','san-serif';
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: 25% 25% 1fr;
-        grid-template-rows: 25% 25% 1fr;
+    -ms-grid-rows: 25% 5% 25% 1fr;
+        grid-template-rows: 25% 5% 25% 1fr;
   }
   .sliders {
     visibility: hidden;
@@ -14,8 +14,8 @@
     width: 100%;
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: auto 1fr;
-        grid-template-rows: auto 1fr;
+    -ms-grid-columns: 30% 70%;
+        grid-template-columns: 30% 70%;
   }
   aside {
     display: block;
@@ -25,10 +25,6 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
   }
   .main-head .menu-icon {
     display: block;

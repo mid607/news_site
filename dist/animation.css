@@ -1,0 +1,25 @@
+@-webkit-keyframes pulse {
+  from {
+    -webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.6);
+            box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.6);
+  }
+  to {
+    -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0);
+            box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0);
+  }
+}
+@keyframes pulse {
+  from {
+    -webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.6);
+            box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.6);
+  }
+  to {
+    -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0);
+            box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0);
+  }
+}
+/*# sourceMappingURL=animation.css.map */
