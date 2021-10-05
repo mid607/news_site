@@ -8,16 +8,17 @@
         grid-template-rows: 25% 5% 25% 1fr;
   }
   .sliders {
-    visibility: hidden;
+    display: block;
   }
   .mainSection {
     width: 100%;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 30% 70%;
-        grid-template-columns: 30% 70%;
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
   }
   aside {
+    width: 100%;
     display: block;
   }
   main {
