@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
-@import 'dist/header.scss';
-@import 'dist/media.scss';
-@import 'dist/animation';
+@import 'header.scss';
+@import 'media.scss';
+@import 'animation';
 *,*::before,*::after{
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +13,7 @@ body{
  height: 100vh;
   font-family: 'montserrat','san-serif';
   display: grid;
-grid-template-rows: 25% 5% 25% 1fr;
+grid-template-rows: 10% 25% 55% 5%;
 
 }
 .sliders{
@@ -27,24 +27,31 @@ height: 100vh;
 display: grid;
 justify-items: center;
 align-items: center;
- justify-content: center;
- align-content: center;
- grid-template-columns: 50%;
+ 
+ grid-template-columns: 75% 25% ;
 
   main{
- width: 100%;
+width: 100%;
+height: 100%;
  border: 1px solid black;
  display: flex;
- flex-direction: row;
- flex-wrap: wrap;
-justify-content: space-evenly;
+
 
   }
+  aside{
+    width: 100%;
+    display: flex;  
+ border: 1px solid black;
+  }
+}
+.end-page{
+  
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  color: aliceblue;
 }
 .clearFix{
   clear: both;
 }
-.card{
-  display: flex;
-  flex-direction: column;
-}
+
