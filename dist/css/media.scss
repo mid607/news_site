@@ -4,23 +4,22 @@
         height: auto;
          font-family: 'montserrat','san-serif';
          display: grid;
-       grid-template-rows: 10%  25% 55% 5%;
+       grid-template-rows: auto auto 1fr 2fr auto;
        
        }
    
 .sliders{
-       display: block;
+       display: flex;
+       width: 100%;
+      
     }
 .mainSection{
 width: 100%;
 display: grid;
-grid-template-columns: 1fr;
+grid-template-columns: 100%;
 
 
-aside{
-    display: none;
-  
-}
+
 main{
  
 width: 100%;
@@ -120,6 +119,9 @@ animation: openMid 0.8s forwards;
       }
     }
 }
+
+
+
 @keyframes openTop{
     0%{
         transform: translateY(-5px) rotate(0deg);
