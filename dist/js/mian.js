@@ -56,10 +56,20 @@ for(var i = 1; i <= count; i++){
 console.log(pageElement);
 console.log(pagiItem);
 document.getElementById('ind').appendChild(pageElement);
-
+///pagenation to clickBtn
 var pagearr = Array.from(document.querySelectorAll('.slider-indcators .ind ul li'));
 
 console.log(pagearr);
+
+for(let i =0; i < pagearr.length; i++){
+
+    pagearr[i].onclick = function (){
+
+        currentslide = parseInt(this.getAttribute('data-index'));
+
+        checker();
+    }
+}
 
 // btn functions
 function nextSlide () {

@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\Erberona"
+		},
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\programming learn"
+		},
+		{
+			"path": "..\\..\\..\\visual c#"
+		},
+		{
+			"path": "..\\..\\..\\weskresha"
+		},
+		{
+			"path": "..\\..\\..\\Work"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "news_site"
+	}
+}
