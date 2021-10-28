@@ -1,3 +1,8 @@
+
+/*my frist site js script created by (Mido_Anwar)*/
+
+
+////navbar part
 const header=document.querySelector('.main-head');
 
 window.addEventListener('scroll',()=>{
@@ -162,4 +167,8 @@ bullet.classList.remove('active');
 /*
 slider part end
 */ 
+
+
+
+
 
